@@ -17,6 +17,7 @@ function longestString(arr) {
       }
     }
     longestWordsArray.push(word);
+    word = "";
       
   }
   return longestWordsArray;
