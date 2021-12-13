@@ -20,7 +20,8 @@ function longestString(arr) {
     word = "";
       
   }
-  return longestWordsArray;
+  let longestWordString = longestWordsArray.join(" ");
+  return longestWordString;
 }
 
 console.log(longestString(posts));
